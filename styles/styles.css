@@ -1,0 +1,38 @@
+td, th {
+    border:1px solid black; 
+    padding: 8px;
+    text-align: center
+    border-collapse:collapse}
+
+table  {
+    font-family: "arial", sans-serif;
+    width:100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0px auto 20px auto;
+    font-weight: bold;
+    
+}
+    
+tbody tr:nth-child(even) {
+    background-color: red;
+    color:white;
+    
+}
+
+tbody tr:nth-child(3n) {
+    background-color: white;
+    color:blue;
+    
+}
+tbody tr:nth-child(3n+1) {
+    background-color: blue;
+    color:white;
+    
+}
+
+tbody tr:nth-child(-3n1) {
+    background-color: white;
+    color:red;
+    
+}
